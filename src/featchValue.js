@@ -21,7 +21,7 @@ export async function featchValue(value){
         response.data["hits"].forEach(element => {
             result.push({webformatURL:element.webformatURL, largeImageURL:element.largeImageURL, tahs:element.tags, likes:element.likes, views:element.views, comments:element.comments, downloads:element.downloads});
         });
-        return result;
+        return resultnumber;
     }).catch(()=>{
         Notiflix.Notify.failure("We're sorry, but you've reached the end of search results.");
     })

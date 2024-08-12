@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .photo-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .photo-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .info {
+    padding: 15px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .info-item {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .info-item b {
+    color: #007bff;
+  }
