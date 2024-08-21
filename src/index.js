@@ -6,7 +6,7 @@ import {createValue} from "./ctreateValue";
 
 const search = document.querySelector(".search-form");
 const loadMore = document.querySelector(".load-more");
-const div = document.querySelector("div");
+const div = document.querySelector(".container");
 const input = document.querySelector("input");
 
 loadMore.setAttribute("hidden","");
